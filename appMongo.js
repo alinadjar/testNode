@@ -23,9 +23,9 @@ const Course = mongoose.model('Course', courseSchema);
 
 async function createCourse() {
     const courseObj = new Course({
-        name: 'Angular',
-        author: 'Mosh',
-        tags: ['angular', 'frontend'],
+        name: 'Node.js',
+        author: 'Mosh Hamedani',
+        tags: ['node', 'backend'],
         isPublished: true
     });
 
@@ -60,5 +60,7 @@ async function getCourses() {
 }
 
 
-//createCourse();
+// createCourse();
 getCourses();
+
+

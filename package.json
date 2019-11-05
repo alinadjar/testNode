@@ -10,12 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "joi": "^14.3.1",
     "lodash": "^4.17.15",
+    "mongodb": "^3.3.3",
     "mongoose": "^5.7.7",
     "morgan": "^1.9.1",
+    "mssql": "^6.0.0",
     "nodemon": "^1.19.4",
     "pug": "^2.0.4",
     "underscore": "^1.9.1"
